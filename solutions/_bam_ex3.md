@@ -10,6 +10,9 @@ samtools view ERR315494.bam | awk '{print $3}' | sort | uniq -c | sort -nr > chr
 less chr.txt
 ```
 
+By now, you should have notice something special with the data. What is it?
+
+
 * How many different mapping qualities are represented in the BAM file. What do they represent?
 ```bash
 samtools view ERR315494.bam | awk '{print $5}' | sort | uniq -c | sort -nr
@@ -24,18 +27,18 @@ samtools view ERR315494.bam | awk '{print $5}' | sort | uniq -c | sort -nr
   
 * How many different alignment flags can you find in the BAM file?
 ```bash
-samtools view untreated3.bam | awk '{print $2}' | sort | uniq -c | sort -nr
+samtools view ERR315494.bam | awk '{print $2}' | sort | uniq -c | sort -nr
 ```
 
 * Try to print the unique CIGAR strings for the first 300 reads. What is their meaning?
 ```bash
-samtools view untreated3.bam | head -n 300 | awk '{print $6}' | sort -u
+samtools view ERR315494.bam | head -n 300 | awk '{print $6}' | sort -u
 ```
-
-  * `36M` - 36 mapped positions
-  * `19M260N11M` - 19 mapped positions, followed by a gap of 260 nucleotides, followed by 11 mapped positions
+  * `10M1230N75M`- 10 mapped positions, followed by a gap of 1230 nucleotides, followed by 75 mapped positions
+  * `1M1304N84M` - 1 mapped position, followed by a gap of 1304 nucleotides, followed by 84 mapped positions 
   * etc.
+  * `85M` - 85 mapped positions
 
-  Note that `M` indicates that the position could be mapped, but it does not specify if it was an exact match or a mismatch.
+Note that `M` indicates that the position could be mapped, but it does not specify if it was an exact match or a mismatch.
 
 [BAM - Ex3] (https://github.com/Functional-Genomics/TeachingMaterial/blob/Cancer-Genomics-07-2015/doc/21.bam.md#exercise-3)
