@@ -10,4 +10,4 @@ grep '^@ERR' ERR315414_1_filt1.fastq | wc -l
 
 Note that being too strict in some filtering steps might lead to an important loss of information. Discarding too many reads since the beginning is generally not a good option, and one can also rely on the mapping step to discard low quality reads.
 
-
+[Filtering-Fastq-Ex4](https://github.com/Functional-Genomics/TeachingMaterial/blob/Cancer-Genomics-07-2015/doc/13.filtering_fastq.md#exercise-4)
