@@ -2,13 +2,14 @@
 
 Note: Since this part spans only on one day, the tutorial could not been done thouroughly. 
 
-Do not worry: the main points will be stressed during the course and this tutorial is enough detailed to be done by yourself after. If you have any question (on any part of the tutorial or on RNA-seq more generally) you can contact us: lgreger [at] ebi.ac.uk and mitra [at] ebi.ac.uk 
+*Do not worry*: the main points will be stressed during the course and this tutorial is enough detailed to be done by yourself after. If you have any question (on any part of the tutorial or on RNA-seq more generally) you can contact us: nf [at] ebi.ac.uk and mitra [at] ebi.ac.uk 
 
-This tutorial will illustrate how to use standalone tools, together with R and Bioconductor for the analysis of RNA-seq data. Keep in mind that this is a rapidly evolving field and that this document is not intended as a review of the many tools available to perform each step; instead, we will cover one of the many existing workflows to analyse this type of data.
+This tutorial will illustrate how to use standalone tools, together with R and Bioconductor for the analysis of RNA-seq data. We will also use one meta-pipeline [IRAP] (https://github.com/nunofonseca/irap). Keep in mind that this is a rapidly evolving field and that this document is not intended as a review of the many tools available to perform each step; instead, we will cover *one* of the many existing workflows to analyse this type of data.
 
-We will be working with a subset of a publicly available dataset from *Drosophila melanogaster*, which is available both in the Short Read archive ([SRP001537](http://www.ebi.ac.uk/ena/data/view/SRP001537) - raw data) and in Bioconductor ([pasilla package](http://www.bioconductor.org/packages/release/data/experiment/html/pasilla.html) - processed data). For more information about this dataset please refer to the original publication ([Brooks et al. 2010](http://genome.cshlp.org/content/early/2010/10/04/gr.108662.110)).
+We will be working with a subset of a publicly available dataset from *Homo sapiens*, which is available in the Short Read archive ([ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613) and in ArrayExpress [E-MTAB-2836] (http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2836/) as raw data, but also as processed data in the authors' website [Protein Atlas] (http://www.proteinatlas.org/humanproteome/tissue+specific) and [EBI Gene Expression Atlas] (http://www.ebi.ac.uk/gxa/experiments/E-MTAB-2836). For more information about this dataset please refer to the original publication ([Uhlen et al. Science (2015) - Tissue-based map of the human proteome. DOI: 10.1126/science.1260419] (http://dx.doi.org/10.1126/science.1260419))..  
 
-The tools and R packages that we will be using during the practical are listed below (see [Software requirements](https://github.com/mgonzalezporta/TeachingMaterial#software-requirements)) and the necessary data files can be found [here](http://www.ebi.ac.uk/~mitra/courses/RNASeq.tar.gz). After dowloading and uncompressing the `tar.gz` file, you should have the following directory structure in your computer:
+
+The tools and R packages that we will be using during the practical are listed below (see [Software requirements](https://github.com/Functional-Genomics/TeachingMaterial#software-requirements)) and the necessary data files can be found [here](http://www.ebi.ac.uk/~mitra/courses/CG15/RNASeq.tar.gz). After dowloading and uncompressing the `tar.gz` file, you should have the following directory structure in your computer:
 
 ```
 RNAseq
@@ -20,7 +21,7 @@ RNAseq
     `-- RData               # R environment for each part with the different generated object
 ```
 
-You can also browse the files online and download only the needed material from [here](http://www.ebi.ac.uk/~mitra/courses//RNASeq/)
+You can also browse the files online and download only the needed material from [here](http://www.ebi.ac.uk/~mitra/courses/CG15/RNA-Seq)
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.
 
@@ -91,4 +92,4 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
 
 
 ## Aknowledgments
-This tutorial has been inspired on material developed by Mar Gonzalez-Porta, Ângela Gonçalves, Nicolas Delhomme, Simon Anders and Martin Morgan, who we would like to thank and acknowledge. Special thanks must go to Mar Gonzalez-Porta, with whom we have been teaching and to Gabriella Rustici for her priceless help in organising courses.
+This tutorial has been inspired on material developed by Mar Gonzalez-Porta, Ângela Gonçalves, Nicolas Delhomme, Simon Anders and Martin Morgan, who we would like to thank and acknowledge. Special thanks must go to Mar Gonzalez-Porta, with whom we have been teaching and who was the first one to put this tutorial online.
