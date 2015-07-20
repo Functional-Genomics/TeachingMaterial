@@ -6,8 +6,15 @@ Note: Since this part spans only on one day, the tutorial could not been done th
 
 This tutorial will illustrate how to use standalone tools, together with R and Bioconductor for the analysis of RNA-seq data. We will also use one meta-pipeline [IRAP] (https://github.com/nunofonseca/irap). Keep in mind that this is a rapidly evolving field and that this document is not intended as a review of the many tools available to perform each step; instead, we will cover *one* of the many existing workflows to analyse this type of data.
 
-We will be working with a subset of a publicly available dataset from *Homo sapiens*, which is available in the Short Read archive ([ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613) and in ArrayExpress [E-MTAB-2836] (http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2836/) as raw data, but also as processed data in the authors' website [Protein Atlas] (http://www.proteinatlas.org/humanproteome/tissue+specific) and [EBI Gene Expression Atlas] (http://www.ebi.ac.uk/gxa/experiments/E-MTAB-2836). For more information about this dataset please refer to the original publication ([Uhlen et al. Science (2015) - Tissue-based map of the human proteome. DOI: 10.1126/science.1260419] (http://dx.doi.org/10.1126/science.1260419))..  
+We will be working with a subset of a publicly available dataset from *Homo sapiens*, which is available:
+1- as raw data:
+    2- in the Short Read archive [ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613) and 
+    2- in ArrayExpress [E-MTAB-2836] (http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2836/) 
+1- but also as processed data 
+    2-  in the authors' website [Protein Atlas] (http://www.proteinatlas.org/humanproteome/tissue+specific) and 
+    2- [EBI Gene Expression Atlas] (http://www.ebi.ac.uk/gxa/experiments/E-MTAB-2836). 
 
+For more information about this dataset please refer to the original publication ([Uhlen et al. Science (2015) - Tissue-based map of the human proteome. DOI: 10.1126/science.1260419] (http://dx.doi.org/10.1126/science.1260419))..  
 
 The tools and R packages that we will be using during the practical are listed below (see [Software requirements](https://github.com/Functional-Genomics/TeachingMaterial#software-requirements)) and the necessary data files can be found [here](http://www.ebi.ac.uk/~mitra/courses/CG15/RNASeq.tar.gz). After dowloading and uncompressing the `tar.gz` file, you should have the following directory structure in your computer:
 
@@ -74,6 +81,9 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
   * [DESeq](http://www.bioconductor.org/packages/2.13/bioc/html/DESeq.html) - only for some dependencies
   * [DESeq2](http://www.bioconductor.org/packages/2.13/bioc/html/DESeq2.html)
   * [DEXSeq](http://www.bioconductor.org/packages/2.13/bioc/html/DEXSeq.html)
+
+* (Meta)Pipeline
+  * [IRAP](https://github.com/nunofonseca/irap) - which will be used through [docker](http://docs.docker.com/) for this tutorial
 
 ## Other resources
 
