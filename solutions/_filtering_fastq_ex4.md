@@ -3,7 +3,7 @@ We can get the number of reads in each fastq file from the first table in the Fa
 We can also execute the following command if we want to automate the process:
 
 ```bash
-grep '^@ERR' ERR315414_1_filt1.fastq | wc -l
+grep '^@ERR' ERR315494_pe_1_filt1.fastq | wc -l
     # find the lines starting with "@" and count how many there are
     # 
 ```
