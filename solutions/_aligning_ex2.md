@@ -1,2 +1,2 @@
-They correspond to the different annotated transcripts for *Drosophila melanogaster*.
+They correspond to the different annotated transcripts for *Homo sapiens*.
 
