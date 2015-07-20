@@ -1,22 +1,22 @@
 * How many reads map in total?
 ```bash
-samtools view untreated3.bam | wc -l
-	# 33,672,534 /2 = 16,836,267
+samtools view ERR315494.bam | wc -l
+	# 707,960 /2 = 353,980
 ```
 
 * How many reads map to each chromosome?
 ```bash
-samtools view untreated3.bam | awk '{print $3}' | sort | uniq -c | sort -nr > chr.txt
+samtools view ERR315494.bam | awk '{print $3}' | sort | uniq -c | sort -nr > chr.txt
 less chr.txt
 ```
 
 * How many different mapping qualities are represented in the BAM file. What do they represent?
 ```bash
-samtools view untreated3.bam | awk '{print $5}' | sort | uniq -c | sort -nr
+samtools view ERR315494.bam | awk '{print $5}' | sort | uniq -c | sort -nr
 ```
 
-  TopHat (and Bowtie) does not provide as much information encoded in the mapping quality as other software (e.g. BWA). Still, those are usually the values reported:
-  * `255`: unique mapping
+  TopHat2 (and Bowtie) does not provide as much information encoded in the mapping quality as other software (e.g. BWA). Still, those are usually the values reported:
+  * `50`: unique mapping (Note: for some previous versions or mapper it is `255`)
   * `3`: the read maps to 2 locations in the target
   * `2`: the read maps to 3 locations
   * `1`: the read maps to 4-9 locations
@@ -38,4 +38,4 @@ samtools view untreated3.bam | head -n 300 | awk '{print $6}' | sort -u
 
   Note that `M` indicates that the position could be mapped, but it does not specify if it was an exact match or a mismatch.
 
-
+[BAM - Ex3] (https://github.com/Functional-Genomics/TeachingMaterial/blob/Cancer-Genomics-07-2015/doc/21.bam.md#exercise-3)
