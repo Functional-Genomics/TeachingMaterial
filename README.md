@@ -57,8 +57,6 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
            * [De-multiplexing](doc/14.demultiplexing.md)
      1. Exon-centric analyses:
            * [Differential exon usage](doc/27.deu.md)
-     2. Transcript-centric analyses:
-           * [Identification, annotation and visualisation of splicing switch events](doc/28.se.md)
 
 
 ## Software requirements
