@@ -6,8 +6,8 @@ samtools view ERR315494_paired.bam | wc -l
 
 * How would you sort the properly paired reads by name instead?
 ```bash
-samtools sort -n ERR315494_paired.bam ERR315494_paired_nsort 
-samtools view ERR315494_paired_nsort.bam |head
+samtools sort -n ERR315494_paired.bam ERR315494_paired_byname
+samtools view ERR315494_paired_byname.bam |head
 ```
 
 * Which percentage of those properly paired reads map uniquely?
