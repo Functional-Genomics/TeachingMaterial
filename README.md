@@ -8,7 +8,7 @@ This tutorial will illustrate how to use standalone tools, together with R and B
 
 We will be working with a subset of a publicly available dataset from *Homo sapiens*, which is available:
 * As raw data:
-    * in the Short Read archive [ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613) and 
+    * in the European Nucleotide Archive (ENA) [ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613) and 
     * in ArrayExpress [E-MTAB-2836] (http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2836/) 
 * but also as processed data 
     *  in the authors' website [Protein Atlas] (http://www.proteinatlas.org/humanproteome/tissue+specific) and 
