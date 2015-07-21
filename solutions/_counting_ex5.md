@@ -25,5 +25,6 @@ aln_chr21[names(aln_chr21)=="ERR315494.10000261"]
 ```
 
 * What information does the command `seqlevels(aln_chr21)` provide?
+
   It contains information on the chromosome names available in the BAM file.
 
