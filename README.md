@@ -6,7 +6,7 @@ Note: Since this part spans only on one day, the tutorial could not been done th
 
 This tutorial will illustrate how to use standalone tools, together with R and Bioconductor for the analysis of RNA-seq data. We will also use one meta-pipeline [IRAP] (https://github.com/nunofonseca/irap). Keep in mind that this is a rapidly evolving field and that this document is not intended as a review of the many tools available to perform each step; instead, we will cover *one* of the many existing workflows to analyse this type of data.
 
-We will be working with a subset of a publicly available dataset from *Homo sapiens*, which is available:
+We will be working with __a subset__ of a publicly available dataset from *Homo sapiens*, which is available:
 * As raw data:
     * in the European Nucleotide Archive (ENA) [ERP003613](http://www.ebi.ac.uk/ena/data/view/ERP003613) and 
     * in ArrayExpress [E-MTAB-2836] (http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2836/) 
