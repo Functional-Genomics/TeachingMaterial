@@ -5,4 +5,3 @@ testable_subset=head(fData(ecs)$testable)
 cbind(counts_subset, testable_subset)
 ```
 
-
