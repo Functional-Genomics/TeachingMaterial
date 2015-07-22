@@ -1,3 +1,9 @@
+For `ERR315494_1.fastq`
+```bash
+
+```
+
+For `ERR315494_2.fastq`
 ```bash
 Input and filter stats:
 	Input sequences: 16,450,970
