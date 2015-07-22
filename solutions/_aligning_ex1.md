@@ -11,5 +11,6 @@ This is certainly a topic for discussion with no definitive answers, but here ar
 * Mapping to the transcriptome
   * *Pros:* less complexity in the mapping (reads map contiguously); output easily interpretable; faster than mapping to the genome.
   * *Cons:* only for annotated regions; multiple transcripts for the same gene (reads might map equally well to these because of shared sequence).
-  
-[Aligning-Ex1](https://github.com/Functional-Genomics/TeachingMaterial/blob/Cancer-Genomics-07-2015/doc/15.aligning.md#exercise-1)
+
+
+ 
