@@ -1,6 +1,18 @@
 For `ERR315494_1.fastq`
 ```bash
-
+Input and filter stats:
+	Input sequences: 15,709,507
+	Input bases: 1,461,204,382
+	Input mean length: 93.01
+	Good sequences: 15,708,132 (99.99%)
+	Good bases: 1,460,278,926
+	Good mean length: 92.96
+	Bad sequences: 1,375 (0.01%)
+	Bad bases: 96,920
+	Bad mean length: 70.49
+	Sequences filtered by specified parameters:
+	min_len: 116
+	lc_method: 1259
 ```
 
 For `ERR315494_2.fastq`
