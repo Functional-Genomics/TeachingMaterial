@@ -41,4 +41,3 @@ samtools view ERR315494.bam | head -n 300 | awk '{print $6}' | sort -u
 
 Note that `M` indicates that the position could be mapped, but it does not specify if it was an exact match or a mismatch.
 
-[BAM - Ex3] (https://github.com/Functional-Genomics/TeachingMaterial/blob/Cancer-Genomics-07-2015/doc/21.bam.md#exercise-3)
