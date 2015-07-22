@@ -6,11 +6,12 @@
 # human readable command:
 #pandoc *.md -o ../pdf/practical.pdf --toc 
 ##          --variable title:"RNA-seq data analysis practical - Cancer Genomics Workshop" 
-##          --variable date:"2014/07/03" 
-##          --variable author:"Mitra P. Barzine and Liliana Greger"
+##          --variable date:"2015/07/23"
+##          --variable author:"Mitra P. Barzine and Nuno A. Fonseca"
 ##          --variable links-as-notes 
 ##          --variable linkcolor:black 
 ##          --variable urlcolor:black 
 ##          --variable geometry:margin=3cm
 
-pandoc *.md -o ../pdf/practical.pdf --toc --variable title:"RNA-seq data analysis practical - Cancer Genomics Workshop" --variable date:"2014/07/03" --variable author:"Mitra P. Barzine and Liliana Greger" --variable links-as-notes --variable linkcolor:black --variable urlcolor:black --variable geometry:margin=3cm
+pandoc *.md --latex-engine=xelatex -o ../pdf/practical.pdf --toc --variable title:"RNA-seq data analysis practical - Cancer Genomics Workshop" --variable date:"2015/07/23" --variable author:"Mitra P. Barzine and Nuno A. Fonseca" --variable links-as-notes --variable linkcolor:black --variable urlcolor:black --variable geometry:margin=3cm
+
