@@ -1,5 +1,5 @@
 * Try the following accessor methods:
-```rconsole
+```rscript
 length(aln_chr21)
 head(names(aln_chr21))
 seqnames(aln_chr21)
@@ -10,12 +10,12 @@ head(start(first(aln_chr21)))
 ```
 
 * How many reads are properly paired?
-```rconsole
+```rscript
 table(isProperPair(aln_chr21))
 ```
 
 * What is the percentage of reads that map to multiple locations?
-```rconsole
+```rscript
 t=table(names(aln_chr21))
 head(t[t>1])
 length(t[t>1])/length(t)*100
