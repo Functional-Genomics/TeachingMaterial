@@ -23,9 +23,10 @@ Transcriptomic
 |-- DATA                      # data used for the practicals
 |   |-- demultiplexing        # multiplexed data !!! optional only if you have time   
 |   |-- eqtl                  # data used in the eqtl practical
+|   |-- fastq                 # fastq files -> starting point
 |   |-- mapped                # mapped data: BAM files
-|   |-- QCreport              # precomputed QC report
-|   |-- raw                   # raw data: fastq files
+|   `-- QCreports             # precomputed QC report
+|
 `-- IRAP_example              # Directory setup for IRAP (raw_data +reference) + its output
     |-- data
     |   |-- contamination     # E.coli reference
@@ -34,7 +35,6 @@ Transcriptomic
     |   |   |--homo_sapiens   # All the reference files are in this directory
     `-- E-MTAB-2886           # output of IRAP
         | ...
-        |
 ```
 
 You can also browse the files online and download only the needed material from [here](http://www.ebi.ac.uk/~mitra/courses/CG15/RNA-Seq)
