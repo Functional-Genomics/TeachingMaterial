@@ -19,7 +19,7 @@ samtools view ERR315494.bam | awk '{print $5}' | sort | uniq -c | sort -nr
 ```
 
   TopHat2 (and Bowtie) does not provide as much information encoded in the mapping quality as other software (e.g. BWA). Still, those are usually the values reported:
-  * `50`: unique mapping (Note: for some previous versions or mapper it is `255`)
+  * `50`: unique mapping (Note: for some previous versions or other mappers it can be `255`)
   * `3`: the read maps to 2 locations in the target
   * `2`: the read maps to 3 locations
   * `1`: the read maps to 4-9 locations
