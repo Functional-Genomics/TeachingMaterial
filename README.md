@@ -109,4 +109,4 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
 
 
 ## Aknowledgments
-This tutorial has been inspired on material developed by Mar Gonzalez-Porta, Ângela Gonçalves, Nicolas Delhomme, Simon Anders and Martin Morgan, who we would like to thank and acknowledge. Special thanks must go to Mar Gonzalez-Porta and Liliana Greger with whom we have been teaching. 
+This tutorial has been inspired on material developed by Mar Gonzalez-Porta, Liliana Greger, Ângela Gonçalves, Nicolas Delhomme, Simon Anders and Martin Morgan, who we would like to thank and acknowledge. Many thanks to Claudia Calabrese  & Fatemeh Zamanzad for having participate in the elaboration of this course. Special thanks must go to Mar Gonzalez-Porta, Claudia Calabrese & Fatemeh Zamanzad with whom we have been teaching. 
