@@ -19,13 +19,22 @@ For more information about this dataset please refer to the original publication
 The tools and R packages that we will be using during the practical are listed below (see [Software requirements](https://github.com/Functional-Genomics/TeachingMaterial#software-requirements)) and the necessary data files can be found [here](http://www.ebi.ac.uk/~mitra/courses/CG15/RNASeq.tar.gz). After dowloading and uncompressing the `tar.gz` file, you should have the following directory structure in your computer:
 
 ```
-RNAseq
-|-- reference               # reference info (e.g. genome sequence and annotation)
-`-- data
-    |-- raw                 # raw data: fastq files
-    |-- demultiplexing      # multiplexed data !not used for this course
-    |-- mapped              # mapped data: BAM files
-    `-- RData               # R environment for each part with the different generated object
+Transcriptomic
+|-- DATA                      # data used for the practicals
+|   |-- demultiplexing        # multiplexed data !!! optional only if you have time   
+|   |-- eqtl                  # data used in the eqtl practical
+|   |-- mapped                # mapped data: BAM files
+|   |-- QCreport              # precomputed QC report
+|   |-- raw                   # raw data: fastq files
+`-- IRAP_example              # Directory setup for IRAP (raw_data +reference) + its output
+    |-- data
+    |   |-- contamination     # E.coli reference
+    |   |-- raw_data          # fastq files
+    |   |-- reference
+    |   |   |--homo_sapiens   # All the reference files are in this directory
+    `-- E-MTAB-2886           # output of IRAP
+        | ...
+        |
 ```
 
 You can also browse the files online and download only the needed material from [here](http://www.ebi.ac.uk/~mitra/courses/CG15/RNA-Seq)
