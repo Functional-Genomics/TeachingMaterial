@@ -1,10 +1,10 @@
-* How many reads map in total? Actually, the next line gives you how many alignments are mapped:
+* How many reads map in total? Actually, the next line gives you how many entries there are in the BAM file.
 ```bash
 samtools view ERR315494.bam | wc -l
 	# 707,960 /2 = 353,980
 ```
 
-* How many reads map to each chromosome? Same here, it is the number of mapped alignments.
+* How many reads map to each chromosome? Same here as the previous question.
 ```bash
 samtools view ERR315494.bam | awk '{print $3}' | sort | uniq -c | sort -nr > chr.txt
 less chr.txt
