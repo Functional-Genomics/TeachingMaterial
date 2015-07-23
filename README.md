@@ -19,7 +19,7 @@ For more information about this dataset please refer to the original publication
 The tools and R packages that we will be using during the practical are listed below (see [Software requirements](https://github.com/Functional-Genomics/TeachingMaterial#software-requirements)) and the necessary data files can be found [here](http://www.ebi.ac.uk/~mitra/courses/CG15/RNASeq.tar.gz). After dowloading and uncompressing the `tar.gz` file, you should have the following directory structure in your computer:
 
 ```
-Transcriptomic
+CancerGenomics
 |-- DATA                      # data used for the practicals
 |   |-- demultiplexing        # multiplexed data !!! optional only if you have time   
 |   |-- eqtl                  # data used in the eqtl practical
