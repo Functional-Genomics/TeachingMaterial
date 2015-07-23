@@ -4,6 +4,12 @@ Actually, the next line gives you how many entries there are in the BAM file.
 To have the aligned entries  `samtools -F 4 file.bam` will give you only the mapped entries. Then you have to take the unique name.
 
 ```bash
+samtools view -F 4 ERR315494.bam| cut -f 1 |sort -u | wc -l
+	# 175425
+```
+
+So for the question: how many entries? 
+```bash
 samtools view ERR315494.bam | wc -l
 	# 707,960 /2 = 353,980
 ```
