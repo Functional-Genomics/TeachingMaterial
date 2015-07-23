@@ -14,7 +14,7 @@ samtools view ERR315494.bam | wc -l
 	# 707,960 /2 = 353,980
 ```
 
-* How many reads map to each chromosome? Same here as the previous question.
+* How many alignnemts map to each chromosome? Same here as the previous question.
 ```bash
 samtools view ERR315494.bam | awk '{print $3}' | sort | uniq -c | sort -nr > chr.txt
 less chr.txt
