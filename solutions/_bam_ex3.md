@@ -1,4 +1,6 @@
-* How many reads map in total? Actually, the next line gives you how many entries there are in the BAM file.
+* How many reads map in total? 
+
+Actually, the next line gives you how many entries there are in the BAM file.
 To have the aligned entries  `samtools -F 4 file.bam` will give you only the mapped entries. Then you have to take the unique name.
 
 ```bash
