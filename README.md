@@ -95,7 +95,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
 ## Other resources
 
 ### Course data
-* [Complete course data, including command outputs and R sessions](http://www.ebi.ac.uk/~mar/courses/RNAseq_all.tar.gz)
+* [Complete course data, including command outputs and R sessions](http://www.ebi.ac.uk/~mar/courses/CancerGenomics)
 
 ### Tutorials
 * [Course materials available at the Bioconductor website](http://www.bioconductor.org/help/course-materials/)
