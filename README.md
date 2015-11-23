@@ -6,7 +6,7 @@ We will be working with a subset of a publicly available dataset from *Drosophil
 * As raw data: in the Short Read archive [SRP001537](http://www.ebi.ac.uk/ena/data/view/SRP001537)
 * and also as processed data: in Bioconductor as a package: [pasilla](http://www.bioconductor.org/packages/release/data/experiment/html/pasilla.html)
 
-For more information about this dataset please refer to the original publication (Brooks et al. (2010)] (http://genome.cshlp.org/content/early/2010/10/04/gr.108662.110)).
+For more information about this dataset please refer to the original publication [(Brooks et al. (2010)] (http://genome.cshlp.org/content/early/2010/10/04/gr.108662.110)).
 
 The tools and R packages that we will be using during the practical are listed below (see [Software requirements](https://github.com/Functional-Genomics/TeachingMaterial#software-requirements)) and the necessary data files can be found [here](http://www.ebi.ac.uk/~mitra/courses/CG15/RNASeq.tar.gz). After dowloading and uncompressing the `tar.gz` file, you should have the following directory structure in your computer:
 
