@@ -8,7 +8,7 @@ We will be working with a subset of a publicly available dataset from *Drosophil
 
 For more information about this dataset please refer to the original publication [(Brooks et al. (2010)] (http://genome.cshlp.org/content/early/2010/10/04/gr.108662.110).
 
-The tools and R packages that we will be using during the practical are listed below (see [Software requirements](https://github.com/Functional-Genomics/TeachingMaterial#software-requirements)) and the necessary data files can be found [here](http://www.ebi.ac.uk/~mitra/courses/CG15/RNASeq.tar.gz). After dowloading and uncompressing the `tar.gz` file, you should have the following directory structure in your computer:
+The tools and R packages that we will be using during the practical are listed below (see [Software requirements](https://github.com/Functional-Genomics/TeachingMaterial#software-requirements)) and the necessary data files can be found [here](http://www.ebi.ac.uk/~mitra/courses/EMBLPredocCourse2015/RNASeq.tar.gz). After dowloading and uncompressing the `tar.gz` file, you should have the following directory structure in your computer:
 
 ```
 DATA                                  # data used for the practicals
@@ -85,7 +85,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
 ## Other resources
 
 ### Course data
-* [Complete course data](http://www.ebi.ac.uk/~mitra/courses/CancerGenomics)
+* [Complete course data](http://www.ebi.ac.uk/~mitra/courses/EMBLPredocCourse2015)
 
 ### Tutorials
 * [Course materials available at the Bioconductor website](http://www.bioconductor.org/help/course-materials/)
