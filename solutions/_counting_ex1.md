@@ -1,4 +1,4 @@
 ```bash
-head Homo_sapiens.GRCh38.76.gtf
+head Drosophila_melanogaster.BDGP5.25.62.gtf
 ```
 
