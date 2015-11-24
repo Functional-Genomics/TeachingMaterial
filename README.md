@@ -16,8 +16,7 @@ DATA                                  # data used for the practicals
 |-- eqtl                              # data used in the eqtl practical !!! Not used in the project - FYI only
 |-- fastq                             # fastq files -> starting point
 |-- mapped                            # mapped data: BAM files
-`-- QCreports                         # precomputed QC report
-|
+|-- QCreports                         # precomputed QC report
 `-- IRAP_example                          # Directory setup for IRAP (raw_data +reference) + its output
     |-- data
     |   |-- contamination                 # E.coli reference
