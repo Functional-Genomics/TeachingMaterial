@@ -11,13 +11,12 @@ For more information about this dataset please refer to the original publication
 The tools and R packages that we will be using during the practical are listed below (see [Software requirements](https://github.com/Functional-Genomics/TeachingMaterial#software-requirements)) and the necessary data files can be found [here](http://www.ebi.ac.uk/~mitra/courses/CG15/RNASeq.tar.gz). After dowloading and uncompressing the `tar.gz` file, you should have the following directory structure in your computer:
 
 ```
-CancerGenomics
-|-- DATA                                  # data used for the practicals
-|   |-- demultiplexing                    # multiplexed data !!! Not used in the project - FYI only
-|   |-- eqtl                              # data used in the eqtl practical !!! Not used in the project - FYI only
-|   |-- fastq                             # fastq files -> starting point
-|   |-- mapped                            # mapped data: BAM files
-|   `-- QCreports                         # precomputed QC report
+DATA                                  # data used for the practicals
+|-- demultiplexing                    # multiplexed data !!! Not used in the project - FYI only
+|-- eqtl                              # data used in the eqtl practical !!! Not used in the project - FYI only
+|-- fastq                             # fastq files -> starting point
+|-- mapped                            # mapped data: BAM files
+`-- QCreports                         # precomputed QC report
 |
 `-- IRAP_example                          # Directory setup for IRAP (raw_data +reference) + its output
     |-- data
