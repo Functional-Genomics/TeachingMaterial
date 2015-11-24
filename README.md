@@ -17,6 +17,7 @@ DATA                                  # data used for the practicals
 |-- fastq                             # fastq files -> starting point
 |-- mapped                            # mapped data: BAM files
 |-- QCreports                         # precomputed QC report
+|-- reference                         # reference from release 62 of Ensembl
 `-- IRAP_example                          # Directory setup for IRAP (raw_data +reference) + its output
     |-- data
     |   |-- contamination                 # E.coli reference
