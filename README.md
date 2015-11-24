@@ -22,7 +22,7 @@ DATA                                  # data used for the practicals
     |   |-- contamination                 # E.coli reference
     |   |-- raw_data                      # fastq files
     |   |-- reference
-    |   |   |--drosophila_malanogaster    # All the reference files are in this directory
+    |   |   |--drosophila_melanogaster    # All the reference files are in this directory
     `-- E-MTAB-2886                       # output of IRAP
         | ...
 ```
