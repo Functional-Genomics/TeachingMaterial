@@ -23,7 +23,7 @@ DATA                                  # data used for the practicals
     |   |-- raw_data                      # fastq files
     |   |-- reference
     |   |   |--drosophila_melanogaster    # All the reference files are in this directory
-    `-- E-MTAB-2886                       # output of IRAP
+    `-- E-GEOD-18508                      # output of IRAP
         | ...
 ```
 
