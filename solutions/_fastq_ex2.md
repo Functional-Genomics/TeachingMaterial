@@ -8,4 +8,3 @@ the fourth is the quality of the read sequence, where each character represents 
 
 You will find more information on the meaning of this quality score in the section [Filtering the FASTQ files](../doc/13.filtering_fastq.md). 
 
-[Fastq Ex2](https://github.com/Functional-Genomics/TeachingMaterial/blob/Cancer-Genomics-07-2015/doc/11.fastq.md#exercise-2)
