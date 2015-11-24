@@ -6,6 +6,3 @@ You can also check the table under the *overrepresented sequences* section. It i
 
 Similarly, you might find that some overrepresented sequences correspond to adapters and thus you might want to remove them. Further information on the filtering possibilities can be found in the section [Filtering FASTQ files](../doc/13.filtering_fastq.md).
 
-[Back](https://github.com/Functional-Genomics/TeachingMaterial/blob/Cancer-Genomics-07-2015/doc/12.qa.md#exercise-2)
-
-
