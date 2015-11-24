@@ -2,5 +2,3 @@ From the QA report we can learn that the quality in our fastq file was encoded u
 
 Alternatively, we could try to automatically determine the format of the quality encoding by using other available tools (e.g. [DetermineFastqQualityEncoding](http://www.mcdonaldlab.biology.gatech.edu/seqtools_frame.htm) - not tested).
 
-[Back](https://github.com/Functional-Genomics/TeachingMaterial/blob/Cancer-Genomics-07-2015/doc/12.qa.md#exercise-2)
-
