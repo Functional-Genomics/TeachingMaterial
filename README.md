@@ -1,5 +1,7 @@
 # RNA-seq data analysis practical
 
+https://drive.google.com/open?id=0B8OqXE2Rr7OHQVZQN1BXQ0RMOGM
+
 This tutorial will illustrate how to use standalone tools, together with R and Bioconductor for the analysis of RNA-seq data. We will also use one meta-pipeline [IRAP] (https://github.com/nunofonseca/irap). Keep in mind that this is a rapidly evolving field and that this document is not intended as a review of the many tools available to perform each step; instead, we will cover *one* of the many existing workflows to analyse this type of data.
 
 We will be working with a subset of a publicly available dataset from *Drosophila melanogaster*, which is available:
